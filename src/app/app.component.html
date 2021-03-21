@@ -1,0 +1,7 @@
+<p>
+  Infinite <s>not really</s> children
+</p>
+
+<textarea (input)="updateList($event)" [rows]="20">{{magicList | json}}</textarea>
+
+<app-list [children]="magicList"></app-list>

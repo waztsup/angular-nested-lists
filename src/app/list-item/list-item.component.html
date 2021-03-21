@@ -1,0 +1,5 @@
+<p *ngIf="item" class="name">{{ item.name }}</p>
+<hr>
+<div class="list">
+  <app-list [children]="item.children"></app-list>
+</div>
